@@ -1,0 +1,103 @@
+{
+ "banNo": "20828393",
+ "cmpyName": "宏碁股份有限公司",
+ "investAmt": "",
+ "children": [
+  {
+   "banNo": "16097917",
+    "cmpyName": "跨世紀投資有限公司",
+ 	"investAmt": "2640000000",
+   	"children": [
+    {
+     "banNo": "70436169",
+     "cmpyName": "怡康軟体股份有限公司",
+	 "investAmt": "452261"
+    }
+   ]
+  },
+  {
+   "banNo": "70565450",
+   "cmpyName": "安碁資訊股份有限公司",
+	"investAmt": "748370464"
+  },
+  {
+   "banNo": "43110800",
+   "cmpyName": "宏碁智聯網投資控股股份有限公司",
+	"investAmt": "693218460",
+   	"children": [
+    {
+     "banNo": "43162200",
+     "cmpyName": "宏碁雲端技術服務股份有限公司",
+	 "investAmt": "240000000"
+    },
+    {
+     "banNo": "53739409",
+     "cmpyName": "宏碁資訊服務股份有限公司",
+	 "investAmt": "240000000"
+    },
+    {
+     "banNo": "52296721",
+     "cmpyName": "宏碁智醫股份有限公司",
+	 "investAmt": "19200000"
+    }
+   ]
+  },
+  {
+   "banNo": "70751314",
+   "cmpyName": "群碁投資股份有限公司",
+	"investAmt": "513127444",
+   	"children": [
+    {
+	 "banNo": "16166667",
+     "cmpyName": "渴望園區服務開發股份有限公司",
+	 "investAmt": "90372400"
+    },
+    {
+     "banNo": "42626977",
+     "cmpyName": "聯永基股份有限公司",
+	 "investAmt": "40000000"
+    },
+    {
+     "banNo": "23418437",
+     "cmpyName": "龍顯國際股份有限公司",
+	 "investAmt": "11830968"
+    },
+    {
+     "banNo": "70436169",
+     "cmpyName": "怡康軟体股份有限公司",
+	 "investAmt": "1244246"
+    }
+   ]
+  },
+  {
+   "banNo": "20773257",
+   "cmpyName": "展碁國際股份有限公司",
+	"investAmt": "210265080"
+  },
+  {
+   "banNo": "22089345",
+   "cmpyName": "倚天資訊股份有限公司",
+	"investAmt": "80000000"
+  },
+  {
+   "banNo": "27234776",
+   "cmpyName": "龍一創業投資股份有限公司",
+	"investAmt": "26917542"
+  },
+  {
+   "banNo": "80035071",
+   "cmpyName": "全球策略創業投資股份有限公司",
+	"investAmt": "8505000"
+  },
+  {
+   "banNo": "80035071",
+   "cmpyName": "全球策略創業投資股份有限公司",
+	"investAmt": "8505000"
+  },
+  {
+   "banNo": "52325541",
+   "cmpyName": "宏星技術股份有限公司",
+	"investAmt": "3200000"
+  }
+ ]
+}

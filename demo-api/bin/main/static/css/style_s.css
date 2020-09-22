@@ -1,0 +1,557 @@
+
+/*---------------------------------------------------------------------------- Header ------*/
+@media screen and (max-width: 768px) {
+body {
+	font-family: "新細明體", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #7f7f7f;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: #fff url(../images/bg_04.jpg) left top scroll no-repeat;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#fh5co-header {
+	padding-bottom: 25px;
+}
+.navbar-brand {/*logo*/
+	margin-left: -15px;
+}
+}
+
+@media screen and (max-width: 500px) {
+#fh5co-header {
+	padding-bottom: 20px;
+}
+.navbar-brand {/*logo*/
+	margin-top: 0px;
+}
+.navbar-brand img {/*logo*/
+	width: 350px;
+	height: 40px;
+}
+}
+
+@media screen and (max-width: 480px) {
+#fh5co-header {
+	padding-bottom: 15px;
+}
+.navbar-brand {/*logo*/
+	margin-top: 5px;
+}
+.navbar-brand img {/*logo*/
+	width: 300px;
+	height: 33px;
+}
+}
+
+@media screen and (max-width: 400px) {
+#fh5co-header {
+	padding-bottom: 10px;
+}
+.navbar-brand {/*logo*/
+	margin-top: 5px;
+}
+.navbar-brand img {/*logo*/
+	width: 250px;
+	height: 28px;
+}
+}
+
+@media screen and (max-width: 330px) {
+#fh5co-header {
+	padding-bottom: 0px;
+}
+.navbar-brand {/*logo*/
+	margin-top: 10px;
+}
+.navbar-brand img {/*logo*/
+	width: 230px;
+	height: 26px;
+}
+}
+@media screen and (max-width: 300px) {
+.navbar-brand img {/*logo*/
+	width: 210px;
+	height: 24px;
+}
+}
+@media screen and (max-width: 280px) {
+.navbar-brand img {/*logo*/
+	width: 195px;
+	height: 22px;
+}
+}
+
+/*---------------------------------------------------------------------------- Header right menu ------*/
+@media screen and (max-width: 767px) {
+#fh5co-navbar {
+	margin: 0;
+	float: block;
+	overflow: hidden;
+	padding: 0;
+}
+#fh5co-header .col-md-12 {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+}
+.navbar-collapse {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+}
+.nav > li > a {
+	text-align: center;
+	padding: 25px 10px;
+	margin: 0 5px;
+	background-color: #eeefef;
+	border-bottom: 1px solid #fff;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+	color: #fff;
+	background-color: #2d9cc4;
+}
+.fh5co-navbar2 {
+	top: 25px;
+	right: 40px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.navbar-header {
+	margin-bottom: 0px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.fh5co-navbar {
+	top: 15px;
+	right: -10px;
+}
+.home_txt {
+	width: 30px;
+	height: 30px;
+	font-size: 0;
+	display: block;
+	padding-left: 10px;
+	background: transparent url(../images/icon_home@3x.png) 2px 2px no-repeat;
+	-moz-background-size: 25px 25px;
+	-webkit-background-size: 25px 25px;
+	-o-background-size: 25px 25px;
+	background-size: 25px 25px;
+}
+.home_txt:hover {
+	width: 30px;
+	height: 30px;
+	font-size: 0;
+	display: block;
+	padding-left: 10px;
+	background: transparent url(../images/icon_home_hover@3x.png) 2px 2px no-repeat;
+	-moz-background-size: 25px 25px;
+	-webkit-background-size: 25px 25px;
+	-o-background-size: 25px 25px;
+	background-size: 25px 25px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.fh5co-navbar2 {
+	display: none;
+}
+}
+
+/*---------------------------------------------------------------------------- Mobile Toggle Menu Button ------*/
+@media screen and (max-width: 768px) {
+.fh5co-nav-toggle {
+	display: block;
+	top: 20px;
+}
+}
+
+/*---------------------------------------------------------------------------- Report classification menu ------*/
+@media screen and (max-width:1200px) {
+.images_1_of_3 p {
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+.grid_1_of_3.bg {
+	display: block;
+	min-height: 225px;
+	background-size: cover;
+	background: transparent url(../images/menu_bg.png) 50% 50% no-repeat;
+	-moz-background-size: 225px 225px;
+	-webkit-background-size: 225px 225px;
+	-o-background-size: 225px 225px;
+	background-size: 225px 225px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.grid_1_of_3.bg:hover {
+	background: transparent url(../images/menu_bg_hover.png) 50% 50% no-repeat;
+	-moz-background-size: 225px 225px;
+	-webkit-background-size: 225px 225px;
+	-o-background-size: 225px 225px;
+	background-size: 225px 225px;
+}
+}
+
+@media screen and (max-width: 992px) {
+.menu_sub_system {
+	margin: 50px 0 8em 0;
+}
+.images_1_of_3 {
+	width: 45%;
+	margin-left: 9%;
+}
+.grid_1_of_3:nth-child(3n) {
+	margin-left: 0;
+}
+.grid_1_of_3.bg {
+	display: block;
+	/*width: 100%;*/
+	min-height: 260px;
+	background-size: cover;
+	background: transparent url(../images/menu_bg.png) 50% 50% no-repeat;
+	-moz-background-size: 260px 260px;
+	-webkit-background-size: 260px 260px;
+	-o-background-size: 260px 260px;
+	background-size: 260px 260px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+.grid_1_of_3.bg:hover {
+	background: transparent url(../images/menu_bg_hover.png) 50% 50% no-repeat;
+	-moz-background-size: 260px 260px;
+	-webkit-background-size: 260px 260px;
+	-o-background-size: 260px 260px;
+	background-size: 260px 260px;
+}
+}
+@media screen and (max-width: 600px) {
+.images_1_of_3 {
+	width: 100%;
+	margin-left: 0;
+}
+}
+
+/*---------------------------------------------------------------------------- bookmark ------*/
+@media screen and (min-width: 1600px) {
+.tab_table {
+	height: 34px;
+}
+}
+@media screen and (max-width: 1024px) {
+.tab_title {
+	font-size: 16px;
+}
+}
+@media screen and (max-width: 992px) {
+.tab_table {
+	border-bottom: none;
+	position: relative;
+	height: 35px;
+	border-bottom: 2px solid #2085b3;
+	margin-bottom: 5px;
+}
+#tab_table .col-md-4 {
+	margin-bottom: 20px;
+}
+.tab_title {
+	margin-top: 10px;
+}
+}
+
+@media screen and (max-width: 768px) {
+#tab_table .cssmenu > ul > li > a {
+	font-size: 13px;
+}
+}
+
+@media screen and (max-width: 550px) {
+.tab_table {
+	transparent: url(../images/icon_title@3x.png) 5px -3px no-repeat;
+}
+}
+#tab_table .cssmenu > ul > li > a {
+	padding: 10px 10px;
+	font-size: 1em;
+}
+}
+
+@media screen and (max-width: 480px) {
+#tab_table .cssmenu > ul > li > a {
+	display: inline-block;
+	text-align: center;
+	line-height: 20px;
+	padding: 10px 10px;
+	width: 7em;
+	word-break: break-all;
+}
+#tab_table .cssmenu > ul > li.active a {
+	display: inline-block;
+	line-height: 20px;
+	padding: 10px 10px;
+	word-break: break-all;
+}
+}
+
+@media screen and (max-width: 420px) {
+.tab_table {
+	font-size: 16px;
+}
+#tab_table .cssmenu > ul > li > a {
+	width: 6em;
+}
+#tab_table .cssmenu > ul > li.active a {
+	padding: 10px 5px;
+}
+}
+
+@media screen and (max-width: 360px) {
+#tab_table .cssmenu > ul > li > a {
+	font-size: 0.8em;
+	padding: 10px 5px;
+	width: 5.5em;
+}
+#tab_table .cssmenu > ul > li.active a {
+	padding: 10px 5px;
+}
+}
+
+@media screen and (max-width: 340px) {
+.tab_title {
+	font-size: 14px;
+	line-height: 1.4em;
+}
+#tab_table .cssmenu > ul > li > a {
+	font-size: 0.8em;
+	padding: 10px 10px;
+	width: 6em;
+}
+#tab_table .cssmenu > ul > li.active a {
+	padding: 10px 10px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.tab_title {
+	font-size: 13px;
+}
+#tab_table .cssmenu > ul > li > a {
+	font-size: 0.8em;
+	padding: 10px 10px;
+	width: 7em;
+}
+#tab_table .cssmenu > ul > li.active a {
+	padding: 10px 10px;
+}
+}
+
+@media screen and (max-width: 300px) {
+#tab_table .cssmenu > ul > li > a {
+	padding: 10px 5px;
+	width: 6.5em;
+}
+#tab_table .cssmenu > ul > li.active a {
+	padding: 10px 5px;
+}
+.tab_title {
+	font-size: 12px;
+}
+}
+
+@media screen and (max-width: 280px) {
+#tab_table .cssmenu > ul > li > a {
+	padding: 10px 5px;
+	width: 5.2em;
+}
+#tab_table .cssmenu > ul > li.active a {
+	padding: 10px 5px;
+}
+.tab_title {
+	font-size: 11px;
+}
+}
+
+/*---------------------------------------------------------------------------- Statistics Chart Block ------*/
+@media screen and (max-width: 992px) {
+#chart_table .col-md-4 {
+	margin-top: -15px;
+	min-height: 300px;
+	/*border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;*/
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 0px;
+	-moz-border-top-left-radius: 6px;
+	-moz-border-bottom-left-radius: 0px;
+	-moz-border-top-right-radius: 6px;
+	-moz-border-bottom-right-radius: 0px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 0px;
+}
+#chart_table .col-md-8 {
+	margin-top: -20px;
+	min-height: 300px;
+	/*	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;*/
+	
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 6px;
+	-moz-border-top-left-radius: 0px;
+	-moz-border-bottom-left-radius: 6px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-bottom-right-radius: 6px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+.chart_pic img {
+	width: 50%;
+	height: auto;
+}
+.chart_pic_02 img {
+	width: 90%;
+	height: auto;
+}
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+	height: 10px;
+}
+}
+
+@media screen and (max-width: 1200px) {
+#chart_table .col-md-8 .chart_pic {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+}
+
+@media screen and (max-width: 992px) {
+#chart_table .col-md-4 {
+	min-height: auto;
+}
+#chart_table .col-md-8 {
+	min-height: auto;
+}
+}
+
+@media screen and (max-width: 600px) {
+.chart_table {
+	padding: 1em 0 3em 0;
+}
+/*讓表格出現橫scroll*/
+.table_scroll {
+	overflow: auto;
+}
+.table_scroll .itable {
+	width: 650px;
+}
+}
+
+/*---------------------------------------------------------------------------- Footer ------*/
+
+@media screen and (max-width: 992px) {
+#fh5co-footer p {
+	margin-left: 20%;
+}
+.fh5co-copyright {
+	background: transparent url(../images/logo_footer.png) 12% 80% no-repeat;
+}
+body {
+	background-attachment: fixed;
+	/*	-moz-background-size: auto;
+	background-size: auto;*/
+	-moz-background-size: cover;
+	background-size: cover;
+}
+#fh5co-page {
+	/*position: relative;*/
+	min-height: 100%;
+	background: transparent url(../images/bg_blur.png) center bottom scroll no-repeat;
+	/*	-moz-background-size: cover;
+	background-size: cover;*/
+	-moz-background-size: auto;
+	background-size: auto;
+}
+}
+
+@media screen and (max-width: 768px) {
+#fh5co-footer p {
+	margin-left: 60px;
+}
+.fh5co-copyright {
+	background: transparent url(../images/logo_footer.png) 0 80% no-repeat;
+}
+#fh5co-page {
+	/*position: relative;*/
+	min-height: 100%;
+	background: transparent url(../images/bg_blur_02.png) center bottom scroll no-repeat;
+	/*	-moz-background-size: cover;
+	background-size: cover;*/
+	-moz-background-size: auto;
+	background-size: auto;
+}
+.fh5co-light-grey-section {
+	padding-bottom: 100px;
+}
+.fh5co-copyright {
+	padding-top: 20px;
+}
+#fh5co-footer {
+	height: 100px;
+	margin-top: -100px;
+}
+}
+
+@media screen and (max-width: 600px) {
+.fh5co-light-grey-section {
+	padding-bottom: 150px;
+}
+.fh5co-copyright {
+	padding-top: 40px;
+}
+#fh5co-footer {
+	height: 150px;
+	margin-top: -150px;
+}
+}
+
+@media screen and (max-width: 480px) {
+#fh5co-page {
+	/*position: relative;*/
+	min-height: 100%;
+	background: transparent url(../images/bg_blur_03.png) center bottom scroll no-repeat;
+	/*	-moz-background-size: cover;
+	background-size: cover;*/
+	-moz-background-size: auto;
+	background-size: auto;
+}
+.fh5co-light-grey-section {
+	padding-bottom: 200px;
+}
+.fh5co-copyright {
+	padding-top: 50px;
+}
+#fh5co-footer {
+	height: 200px;
+	margin-top: -200px;
+}
+}

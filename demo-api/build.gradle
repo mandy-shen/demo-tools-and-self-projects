@@ -1,0 +1,49 @@
+import org.gradle.plugins.ide.eclipse.model.Facet
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'eclipse-wtp'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+compileJava.options.encoding = 'UTF-8'
+
+archivesBaseName = 'api'
+version = getDate() 
+
+repositories {
+    jcenter() // from mavenCentral() to jcenter() --> use https, and more efficiency
+    mavenCentral() // some only in mavenCentral
+}
+
+dependencies {
+	// web
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.1.RELEASE'
+    // database
+    implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.1.1'
+    implementation group: 'com.alibaba', name: 'druid', version: '1.0.31'
+    implementation group: 'com.h2database', name: 'h2', version: '1.4.197'
+    // websocket
+    implementation group: 'javax.websocket', name: 'javax.websocket-api', version: '1.1'
+    
+    // test
+    testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.1.RELEASE'
+    // testImplementation group: 'com.h2database', name: 'h2', version: '1.4.197'
+    
+    // tiles
+    // providedCompile group: 'javax', name: 'javaee-web-api', version: '6.0'
+    // compile group: 'javax', name: 'javaee-web-api', version: '6.0'
+	implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+	implementation group: 'org.apache.tiles', name: 'tiles-api', version: '3.0.5'
+	implementation group: 'org.apache.tiles', name: 'tiles-core', version: '3.0.5'
+    implementation group: 'org.apache.tiles', name: 'tiles-jsp', version: '3.0.5'
+    implementation group: 'org.apache.tiles', name: 'tiles-servlet', version: '3.0.5'
+}
+
+war {
+	rootSpec.exclude('**/oracle.test.properties')
+}
+
+def getDate() {
+    return new Date().format('yyyyMMdd-HHmmss')
+}

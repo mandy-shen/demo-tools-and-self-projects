@@ -1,0 +1,181 @@
+/**for taiwanMap css------------------------------------------------------------------------**/
+@keyframes pathChangeColor {
+  from {
+    stroke:blue;
+    fill:rgb(252, 208, 204);
+  }
+
+  to {
+    stroke:yellow;
+    fill:yellow;
+  }
+}
+@keyframes barChangeColor {
+  from {
+    stroke:#00FFFF;
+    stroke-width:1.5;
+    fill:rgb(252, 208, 204);
+  }
+
+  to {                                                                                               
+    stroke:#0000FF;
+    stroke-width:3;
+    fill:yellow;
+  }
+}
+.mouse{
+	fill:yellow;
+	animation-duration: 1.5s;
+    animation-name: pathChangeColor;
+    animation-iteration-count: infinite;
+}
+.bar {
+	stroke:blue;
+	stroke-width:2.5;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+	animation-duration: 1.5s;
+    animation-name: barChangeColor;
+    animation-iteration-count: infinite;
+}
+.path {
+	stroke:blue;
+	stroke-width:1.5;
+	stroke-linecap:round;
+	stroke-linejoin:round;
+}
+.label{
+	fill: #777;
+	stroke:none;
+	font-size: 18px;
+	pointer-events:none;
+}
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+#county-boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 5,0;
+  stroke-linejoin: round;
+}
+#bar {
+	width:95%;
+	height:580px
+}
+#bar rect{
+	cursor:pointer;
+}
+#map path{
+	cursor:pointer;
+}
+
+/**for shareHolder css------------------------------------------------------------------------**/
+svg {
+  border-radius:3px;
+}    
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: #99ccff;;
+  stroke-width: 2px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #99ccff;
+  stroke-width: 2px;
+}
+
+.hyper {
+    color: red;
+    text-decoration: underline;
+}
+
+.hyper:hover {
+    color:yellow;
+    text-decoration: none;
+}   
+.selected {
+  	font-weight:bold;
+}
+.not-selected {
+  	font-weight:normtal;
+}
+.img-hover {
+	width: 50px !important;
+}
+.img-hover:hover {
+    border-bottom:2px solid !important;
+    border-bottom-color:#B22222 !important;
+}
+.arrow{
+	margin-top:257px !important;
+	padding-left:0px !important;
+}
+
+@media screen and (min-width: 1024px) {
+.arrow{
+	width:3% !important;
+}
+#svgChart {
+	width:97%;
+}
+}
+
+@media screen and (max-width: 768px) {
+.img-hover {
+	width: 40px !important;
+}
+}
+
+/**for publicManage css------------------------------------------------------------------------**/
+.node--internal circle {
+	fill: #555;
+}
+.node--internal text {
+	font-size: 16px;
+	text-shadow: 0 2px 0 #fff, 0 -2px 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff;
+	fill: black;
+    font-weight: bold;
+}
+.node--leaf text {
+	fill: white;
+	font-weight: bold;
+    font-size: 14px;
+}
+  .shadow {
+	-webkit-filter: drop-shadow( -1.5px -1.5px 1.5px #000 );
+	filter: drop-shadow( -1.5px -1.5px 1.5px #000 );
+}

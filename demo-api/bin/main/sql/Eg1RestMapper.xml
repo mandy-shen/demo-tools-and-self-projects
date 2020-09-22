@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.mandy.api.dao.Eg1RestDao"> 
+
+    <select id="selectCmpyList" resultType="Eg1TablePo">  
+		<![CDATA[
+			select * from Eg1_Table
+        ]]>  
+    </select>
+    
+    <select id="str2String" parameterType="String" resultType="String">  
+        <![CDATA[
+			Select cmpy_name
+			  From Eg1_Table
+			Where c.Ban_No = #{str1}
+        ]]>   
+    </select>
+    
+    <select id="str2List" parameterType="String" resultType="Eg1TablePo">  
+        <![CDATA[
+	       	SELECT *
+	       	FROM Eg1_Table
+	       	WHERE case_Type = #{caseType}
+        ]]>   
+    </select>
+    
+    <select id="str2LinkedList" parameterType="String" resultType="Eg1TablePo">  
+        <![CDATA[
+			Select Distinct *
+  			From Eg1_Table 
+			Where Ban_No=#{str1}
+			order by 3 desc
+        ]]>   
+    </select>
+    
+    <select id="map2List" parameterType="map" resultType="Eg1TablePo">  
+		   SELECT *
+			 FROM Eg1_Table
+			WHERE A     = #{A, jdbcType=CHAR}
+		<if test="B != null">
+			  AND B     = #{B, jdbcType=CHAR}
+		</if>
+			ORDER BY A, B
+    </select>
+    
+</mapper>
